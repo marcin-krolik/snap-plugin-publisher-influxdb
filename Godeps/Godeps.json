@@ -16,7 +16,7 @@
 			"Rev": "f1ac7f4f24f50328e6bc838ca4437d1612a0243c"
 		},
 	  	{
-		  	"ImportPath": "https://github.com/gogo/protobuf",
+		  	"ImportPath": "github.com/gogo/protobuf",
 		  	"Rev": "6cab0cc9fec8f660c2cee46e1306ffc727261956"
 		}
 	]
