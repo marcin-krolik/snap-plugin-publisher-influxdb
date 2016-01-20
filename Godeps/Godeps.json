@@ -18,6 +18,10 @@
 	  	{
 		  	"ImportPath": "github.com/gogo/protobuf",
 		  	"Rev": "6cab0cc9fec8f660c2cee46e1306ffc727261956"
+		},
+	  	{
+		  	"ImportPath": "github.com/hashicorp/raft",
+		  	"Rev": "8237aa61783236b104587045b0f9fdcec25df564"
 		}
 	]
 }
