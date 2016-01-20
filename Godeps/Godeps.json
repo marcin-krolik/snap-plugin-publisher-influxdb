@@ -1,31 +1,34 @@
 {
 	"ImportPath": "github.com/intelsdi-x/snap-plugin-publisher-influxdb",
-	"GoVersion": "go1.4.2",
+	"GoVersion": "go1.5",
 	"Deps": [
 		{
-			"ImportPath": "github.com/influxdb/influxdb",
-			"Comment": "v0.9.4",
-			"Rev": "d81618c57fae135d9b1c1a8fb3403722ceb29354"
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.8.7-47-ga22723f",
+			"Rev": "a22723f16efea2e89b7bd67d10ed077c47c14eb4"
+		},
+		{
+			"ImportPath": "github.com/influxdb/influxdb/client",
+			"Comment": "v0.10.0-beta1-9-gc64de20",
+			"Rev": "c64de2088ede091abbb042cf8e3ecc6e0418a2dc"
+		},
+		{
+			"ImportPath": "github.com/influxdb/influxdb/models",
+			"Comment": "v0.10.0-beta1-9-gc64de20",
+			"Rev": "c64de2088ede091abbb042cf8e3ecc6e0418a2dc"
+		},
+		{
+			"ImportPath": "github.com/influxdb/influxdb/pkg/escape",
+			"Comment": "v0.10.0-beta1-9-gc64de20",
+			"Rev": "c64de2088ede091abbb042cf8e3ecc6e0418a2dc"
 		},
 		{
 			"ImportPath": "github.com/intelsdi-x/snap-plugin-utilities",
 			"Rev": "f6ebcc7cdefd9a74e256187e638ad6fa62487629"
 		},
 		{
-			"ImportPath": "github.com/jtolds/gls",
-			"Rev": "f1ac7f4f24f50328e6bc838ca4437d1612a0243c"
-		},
-	  	{
-		  	"ImportPath": "github.com/gogo/protobuf",
-		  	"Rev": "6cab0cc9fec8f660c2cee46e1306ffc727261956"
-		},
-	  	{
-		  	"ImportPath": "github.com/hashicorp/raft",
-		  	"Rev": "8237aa61783236b104587045b0f9fdcec25df564"
-		},
-	  	{
-		  	"ImportPath": "github.com/hashicorp/raft-boltdb",
-		  	"Rev": "d1e82c1ec3f15ee991f7cc7ffd5b67ff6f5bbaee"
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "c1cd2254a6dd314c9d73c338c12688c9325d85c6"
 		}
 	]
 }
