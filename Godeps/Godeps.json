@@ -3,11 +3,6 @@
 	"GoVersion": "go1.5",
 	"Deps": [
 		{
-			"ImportPath": "github.com/Sirupsen/logrus",
-			"Comment": "v0.8.7-47-ga22723f",
-			"Rev": "a22723f16efea2e89b7bd67d10ed077c47c14eb4"
-		},
-		{
 			"ImportPath": "github.com/influxdb/influxdb/client",
 			"Comment": "v0.10.0-beta1-9-gc64de20",
 			"Rev": "c64de2088ede091abbb042cf8e3ecc6e0418a2dc"
@@ -23,7 +18,7 @@
 			"Rev": "c64de2088ede091abbb042cf8e3ecc6e0418a2dc"
 		},
 		{
-			"ImportPath": "github.com/intelsdi-x/snap-plugin-utilities",
+			"ImportPath": "github.com/intelsdi-x/snap-plugin-utilities/strings",
 			"Rev": "f6ebcc7cdefd9a74e256187e638ad6fa62487629"
 		},
 		{
