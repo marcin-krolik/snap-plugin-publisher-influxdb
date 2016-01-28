@@ -138,7 +138,7 @@ func (f *influxPublisher) Publish(contentType string, content []byte, config map
 	pts := make([]client.Point, len(metrics))
 	for i, m := range metrics {
 		ns := m.Namespace()
-		tags := map[string]string{"source": m.Source()}
+		tags := map[string]string{"hostname": m.Source()}
 		if m.Labels_ != nil {
 			for _, label := range m.Labels_ {
 				ns = str.Filter(
@@ -154,7 +154,6 @@ func (f *influxPublisher) Publish(contentType string, content []byte, config map
 		}
 		pts[i] = client.Point{
 			Measurement: strings.Join(ns, "/"),
-			Time:        m.Timestamp().Unix(),
 			Tags:        tags,
 			Fields: map[string]interface{}{
 				"value": m.Data(),
